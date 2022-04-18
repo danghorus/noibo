@@ -1,0 +1,91 @@
+.nhanvien {
+    width: 150px;
+    height: 50px;
+}
+
+
+
+
+.calendar {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.calendar h1 {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.info p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.date {
+    border: 0px solid rgb(255, 255, 255);
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.day,
+.day-name {
+    width: 3.11%;
+    height: 3.11%;
+    border: 1px solid #ccc;
+
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 50px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s ease-in;
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+}
+
+.btn {
+    background-size: 200% auto;
+    color: rgb(97, 111, 131);
+}
+
+.btn:hover {
+    background-position: right center;
+    color: rgb(33, 87, 206);
+    text-decoration: none;
+}
+
+.btn-next {
+    margin-left: 1rem;
+}
+
+.btn-prev {
+    margin-right: 1rem;
+}
+
+.day.active {
+    background-image: linear-gradient(to right,
+            #aa076b 0%,
+            #61045f 51%,
+            #aa076b 100%);
+    color: #fff;
+}
